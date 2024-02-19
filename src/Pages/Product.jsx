@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import ShopContext from '../Context/Context';
 import { useParams } from 'react-router-dom';
-
+ 
 function Product() {
 
   const {all_product} = useContext(ShopContext);
